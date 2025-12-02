@@ -3,16 +3,9 @@ This repository provides the implementation of algorithms for $k$-clique listing
 It includes our proposed methods VR$k$CL-V and VR$k$CL-E.
 
 ## Code Structure
-
-The main implementations are located in the `query` directory, with each algorithm in its own files:
-
-- `BaseLine.hpp` – Baseline approach
-- `IIT.hpp` – Interval Index Tree
-- `IIT-R.hpp` – Roaring-compressed Interval Index Tree
-- `DeltaGraph.h/cpp` – Delta-based temporal index
-- `VILA.h/cpp` – Vectorized Interval Lifespan Algorithm
-- `LLAMA.hpp` – Snapshot-based storage with page management
-- `DELTA.h/cpp` – Variation-tolerant delta-based structure
+- `VRkCL-V` – The sorse code of VR$k$CL-V
+- `VRkCL-E` – The sorse code of VR$k$CL-E
+- `Dataset` – Example dataset
 
 ---
 
@@ -39,7 +32,7 @@ After running the codes, there will be executable files called `VRkCL-E` in `bui
 ### Example Commands
 - **Run $k$-clique listing `VRkCL-V`:**
 ```bash
-./bin/VRkCL-V WK 8
+./VRkCL-V WK 8
 ```
 - **Run $k$-clique listing `VRkCL-E`:**
 ```bash

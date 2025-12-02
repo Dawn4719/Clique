@@ -1,0 +1,2 @@
+/usr/bin/ar qc libparallelMCE.a CMakeFiles/parallelMCE.dir/parallelCCRMCE.cpp.o
+/usr/bin/ranlib libparallelMCE.a

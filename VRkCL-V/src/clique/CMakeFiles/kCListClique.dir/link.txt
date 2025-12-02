@@ -1,0 +1,2 @@
+/usr/bin/ar qc libkCListClique.a CMakeFiles/kCListClique.dir/kCListClique_v6.cpp.o
+/usr/bin/ranlib libkCListClique.a

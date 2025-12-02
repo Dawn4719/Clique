@@ -1,0 +1,2 @@
+/usr/bin/ar qc libparallelKcc.a CMakeFiles/parallelKcc.dir/parallelkCListClique.cpp.o
+/usr/bin/ranlib libparallelKcc.a

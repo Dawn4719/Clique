@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMCE.a CMakeFiles/MCE.dir/mcecrrv3.cpp.o
+/usr/bin/ranlib libMCE.a

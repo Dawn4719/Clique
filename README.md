@@ -25,7 +25,7 @@ After running the codes, there will be executable files called `VRkCL-E` in `bui
 ## Datasets
 
 - **Default datasets** (e.g., `WK`, `FB`) are included in `Dataset`.
-- **Additional datasets** can be downloaded from [SNAP](https://snap.stanford.edu/data/index.html).
+- **Additional datasets** can be downloaded from [SNAP](https://snap.stanford.edu/data/index.html) and [Networkrepository](https://networkrepository.com/).
 ---
 
 ## Run the procedure

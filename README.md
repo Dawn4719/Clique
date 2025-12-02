@@ -42,8 +42,8 @@ After running the codes, there will be executable files called `VRkCL-E` in `bui
 ---
 
 ## External Dependencies
-- **BitCol** (baselines): available at [k-clique-listing]https://github.com/zer0y/
-- **SDegree** (baselines): available at [k-clique-listing]https://github.com/zer0y/k-clique-listing
+- **BitCol** (baselines): available at [k-clique-listing](https://github.com/zer0y/k-clique-listing)
+- **SDegree** (baselines): available at [k-clique-listing](https://github.com/zer0y/k-clique-listing)
 - **CCR** (baselines): available at [coreCliqueRemoval](https://github.com/LightWant/coreCliqueRemoval)
 - **EBBkC+ET** (baselines): available at [EBBkC](https://github.com/wangkaixin219/EBBkC)
 

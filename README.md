@@ -1,11 +1,11 @@
 ## Accelerating $k$-Clique Listing via Vertex Classification and Repeated Branch Reduction
 This repository provides the implementation of algorithms for $k$-clique listing problem.  
-It includes our proposed methods VR$k$CL-V and VR$k$CL-E.
+It includes our proposed methods VRkCL-V and VRkCL-E.
 
 ## Code Structure
-- `VRkCL-V` – The sorse code of VR$k$CL-V
-- `VRkCL-E` – The sorse code of VR$k$CL-E
-- `Dataset` – Example dataset
+- `VRkCL-V` – The sorse code of VRkCL-V, which is vertex-oriented $k$-clique listing algorithm.
+- `VRkCL-E` – The sorse code of VRkCL-E, which is edge-oriented $k$-clique listing algorithm.
+- `Dataset` – Example dataset.
 
 ---
 
@@ -30,21 +30,21 @@ After running the codes, there will be executable files called `VRkCL-E` in `bui
 
 ## Run the procedure
 ### Example Commands
-- **Run $k$-clique listing `VRkCL-V`:**
+- **Run 8-clique listing on wk dataset in `VRkCL-V`:**
 ```bash
-./VRkCL-V WK 8
+./VRkCL-V wk 8
 ```
-- **Run $k$-clique listing `VRkCL-E`:**
+- **Run 8-clique listing on wk dataset in `VRkCL-E`:**
 ```bash
-./VRkCL-E WK 8
+./VRkCL-E wk 8
 ```
 
 ---
 
 ## External Dependencies
-- **BitCol** (baselines): available at [k-clique-listing](https://github.com/zer0y/k-clique-listing)
-- **SDegree** (baselines): available at [k-clique-listing](https://github.com/zer0y/k-clique-listing)
-- **CCR** (baselines): available at [coreCliqueRemoval](https://github.com/LightWant/coreCliqueRemoval)
-- **EBBkC+ET** (baselines): available at [EBBkC](https://github.com/wangkaixin219/EBBkC)
+- **BitCol** (baselines): available at [k-clique-listing](https://github.com/zer0y/k-clique-listing).
+- **SDegree** (baselines): available at [k-clique-listing](https://github.com/zer0y/k-clique-listing).
+- **CCR** (baselines): available at [coreCliqueRemoval](https://github.com/LightWant/coreCliqueRemoval).
+- **EBBkC+ET** (baselines): available at [EBBkC](https://github.com/wangkaixin219/EBBkC).
 
 ---

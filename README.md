@@ -3,8 +3,8 @@ This repository provides the implementation of algorithms for $k$-clique listing
 It includes our proposed methods VRkCL-V and VRkCL-E.
 
 ## Code Structure
-- `VRkCL-V` – The sorse code of VRkCL-V, which is vertex-oriented $k$-clique listing algorithm.
-- `VRkCL-E` – The sorse code of VRkCL-E, which is edge-oriented $k$-clique listing algorithm.
+- `VRkCL-V` – The source code of VRkCL-V, which is vertex-oriented $k$-clique listing algorithm.
+- `VRkCL-E` – The source code of VRkCL-E, which is edge-oriented $k$-clique listing algorithm.
 - `Dataset` – Example dataset.
 
 ---
@@ -48,3 +48,4 @@ After running the codes, there will be executable files called `VRkCL-E` in `bui
 - **EBBkC+ET** (baselines): available at [EBBkC](https://github.com/wangkaixin219/EBBkC).
 
 ---
+

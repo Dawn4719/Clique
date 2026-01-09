@@ -47,7 +47,8 @@ After running the codes, there will be executable files called `VRkCL-E` in `bui
 - **CCR** (baselines): available at [coreCliqueRemoval](https://github.com/LightWant/coreCliqueRemoval).
 - **EBBkC+ET** (baselines): available at [EBBkC](https://github.com/wangkaixin219/EBBkC).
 ---
-**NOTE**: For a fair comparison, each algorithm must perform the full clique enumeration, combinatorial shortcuts are not permitted.
+**NOTE**: For a fair comparison, each algorithm is required to perform full clique enumeration, and replacing enumeration with combinatorial computation is not permitted.
+
 
 
 
